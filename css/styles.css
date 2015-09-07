@@ -1,0 +1,301 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+/*!
+ * Beaker - Responsive Creative Flat Landing Pages - v2
+ * Author URL: http://Themefeather.com
+ * All Right Reserved.
+ * Recommendation: It is recommended to edit the styles using LESS.
+ */
+/* Global
+/ -------------------------------------------------- */
+body {
+  font-family: "Lato";
+  font-size: 18px;
+  font-weight: 300;
+  color: #7c7c7c;
+}
+a {
+  color: #323232;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+a:hover,
+a:focus {
+  color: #db522f;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato";
+}
+
+.maps iframe{
+  pointer-events: none;
+}
+/* Header
+/ -------------------------------------------------- */
+.site-header {
+  /*background-image: url(../img/bg.jpg);*/
+  /*background-image: url(../img/bg_cambridge_street_night.jpg);*/
+  /*background-image: url(../img/bg_boston.jpg);*/
+  /*background-image: url(../img/bg_boston_night.jpg);*/
+  /*background-image: url(../img/bg_kendall_galaxy.jpg);*/
+  background-image: url(../img/bg_kendall_hotel.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: right center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.shadow {
+  -moz-box-shadow: 0 15px 20px 0 rgba(0,0,0,.5);
+  -webkit-box-shadow: 0 15px 20px 0 rgba(0,0,0,.5);
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,.5);
+}
+
+/* logo - icon is from fontawesome font */
+.site-title {
+  color: #fff;
+  font-weight: 300;
+  font-size: 30px;
+}
+/* header-description */
+.header-description {
+  margin: 60px 0 0;
+}
+.header-description h2 {
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0px 12px rgba(36, 36, 36, 0.55);
+  padding: 0px 0 40px 0;
+}
+/* header button - call to action button */
+.header-btn {
+  color: #fff;
+  border-radius: 9px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 20px 35px;
+  border: 2px solid #db522f;
+  background: #db522f;
+  display: inline-block;
+}
+.header-btn:hover,
+.header-btn:focus {
+  color: #fff;
+  background: transparent;
+}
+/* header features */
+.header-features {
+  color: #fff;
+  display: block;
+}
+.header-features .header-feature {
+  padding-bottom: 70px;
+}
+/* Slider
+/ -------------------------------------------------- */
+.nexus {
+  background-image: url(../img/nexus.png);
+  width: 254px;
+  height: 408px;
+  margin: -125px auto 0;
+  position: relative;
+}
+.slider {
+  width: 191px;
+  margin: 52px 31px 0;
+  height: 309px;
+  position: absolute;
+  background: #0f0f0f;
+}
+.carousel-indicators {
+  bottom: 15px;
+  top: auto;
+  right: 104px;
+  bottom: -80px;
+}
+.purchase-button {
+  margin: 50px 0;
+  text-align: center;
+}
+.purchase-button a {
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px 50px;
+  font-weight: 300;
+  border: 2px solid #363636;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.19);
+}
+.purchase-button a i {
+  margin-right: 10px;
+}
+.purchase-button a:active {
+  color: #e6e6e6;
+  border: 1px solid #363636;
+  -webkit-box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.19);
+}
+.purchase-button a:hover,
+.purchase-button a:focus {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+/* Team
+/ -------------------------------------------------- */
+#teams {
+  padding: 60px 0;
+  background: #fff;
+}
+#teams .member {
+  padding: 0 5%;
+}
+@media (max-width: 600px) {
+  #teams .member {
+    padding: 0 5%;
+  }
+}
+#teams .member img {
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.21);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.21);
+}
+
+/* Footer
+/ -------------------------------------------------- */
+.footer {
+  position: relative;
+  background: #4b4b4b;
+  color: #fff;
+}
+.notify-wrapper {
+  position: absolute;
+  left: 50%;
+  top: -40px;
+}
+.notify-inner {
+  position: relative;
+  right: 50%;
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 40px;
+  -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.17);
+}
+.notify {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 300;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 17px 50px;
+  background: #93cede;
+  border-radius: 40px;
+  -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+.notify:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+.notify:active {
+  border: 1px solid rgba(0, 0, 0, 0.29);
+  background: #93cede;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.35);
+}
+/* footer notes */
+.footer-notes {
+  padding: 150px 30% 100px;
+  position: inline-block;
+}
+.footer-notes p {
+  padding-bottom: 20px;
+}
+.footer-notes p + p {
+  border-top: 1px dashed #dcdcdc;
+  padding: 25px;
+}
+.footer-notes a {
+  color: #fff;
+}
+.footer-notes a:hover,
+.footer-notes a:focus {
+  text-decoration: underline;
+}
+/* Responsive
+/ -------------------------------------------------- */
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  .site-header {
+    padding-bottom: 50px;
+  }
+  .nexus {
+    margin: 0px -27px 0;
+  }
+  .purchase-button a {
+    font-size: 15px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .site-header {
+    padding-bottom: 651px;
+  }
+  .purchase-button {
+    position: relative !important;
+  }
+  .header-description {
+    margin: 66px 0 0;
+  }
+  .header-description h2 {
+    font-size: 59px;
+    line-height: 62px;
+  }
+  .purchase-button a {
+    font-size: 14px;
+    padding: 16px 24px;
+  }
+  .nexus {
+    margin: -64px auto 117px;
+  }
+  .member {
+    padding: 0 0;
+    margin-bottom: 50px;
+  }
+  .notify {
+    font-size: 16px;
+    display: inline-block;
+    padding: 17px 25px;
+  }
+  .notify-inner {
+    padding: 7px 8px 8px;
+  }
+  .footer-notes {
+    padding: 150px 0 100px;
+  }
+}
+/* Landscape phones and down */
