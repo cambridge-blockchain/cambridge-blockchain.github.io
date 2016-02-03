@@ -387,7 +387,7 @@ textarea.form-control {
 }
 
 .home-overlay {
-    background-color: rgba(44, 62, 80, 0.8);
+    background-color: rgba(44, 62, 80, 0.6);
     background-image: url("/assets/images/pattern.png");
     background-repeat: repeat;
     height: 100%;
