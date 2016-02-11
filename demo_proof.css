@@ -1,0 +1,10 @@
+body {
+	background: #FAFAFA;
+}
+
+.text-green { color: green !important; }
+.text-red { color: red !important; }
+
+.container-fluid { box-sizing: border-box; margin: 0 auto; overflow: hidden;
+  padding: 0.5in; width: 10in !important; }
+.container-fluid { background: #FFF; border-radius: 1px; box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5); }
