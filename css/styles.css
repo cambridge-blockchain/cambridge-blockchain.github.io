@@ -41,9 +41,9 @@ h6 {
   /*background-image: url(../img/bg.jpg);*/
   /*background-image: url(../img/bg_cambridge_street_night.jpg);*/
   /*background-image: url(../img/bg_boston.jpg);*/
-  /*background-image: url(../img/bg_boston_night.jpg);*/
+  background-image: url(../img/bg_boston_night.jpg);
   /*background-image: url(../img/bg_kendall_galaxy.jpg);*/
-  background-image: url(../img/bg_kendall_hotel.jpg);
+  /*background-image: url(../img/bg_kendall_hotel.jpg);*/
   background-repeat: no-repeat, repeat;
   background-position: right center;
   -webkit-background-size: cover;
