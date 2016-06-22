@@ -11,7 +11,8 @@ body {
   font-family: "Lato";
   font-size: 18px;
   font-weight: 300;
-  color: #7c7c7c;
+  /*color: #7c7c7c;*/
+  color: gray;
 }
 a {
   color: #323232;
