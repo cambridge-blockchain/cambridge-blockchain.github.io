@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://cambridge-blockchain.com/</title>
+  <link>http://cambridge-blockchain.com/</link>
+
+<item>
+     <link>http://cambridge-blockchain.com/</link>
+     <title>Cambridge Blockchain</title>
+     <description>Cambridge Blockchain puts control of personal identity data back in the hands of the end user. Our platform allows financial institutions to meet the strictest new data privacy rules, eliminate redundant identity compliance checks and improve the customer experience.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cambridge-blockchain.com/about/</link>
+     <title>About Us | Cambridge Blockchain</title>
+     <description>About Us | Cambridge Blockchain</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cambridge-blockchain.com/media/</link>
+     <title>Media | Cambridge Blockchain</title>
+     <description>Media | Cambridge Blockchain</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cambridge-blockchain.com/careers/</link>
+     <title>Careers | Cambridge Blockchain</title>
+     <description>Careers | Cambridge Blockchain</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cambridge-blockchain.com/press_releases/20160204-santander-innoventures-challenge.html</link>
+     <title>Press Release - February 4, 2016 | Cambridge Blockchain</title>
+     <description>Press Release - February 4, 2016 | Cambridge Blockchain</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cambridge-blockchain.com/press_releases/cambridge_blockchain_press_release_20160204_final.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
