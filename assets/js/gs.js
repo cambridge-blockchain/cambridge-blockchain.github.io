@@ -26,7 +26,8 @@ el.text = JSON.stringify({
   "contactPoint": [{
     "@type": "ContactPoint",
     "email": "support@cambridge-blockchain.com",
-    "contactType": "customer service"
+    "contactType": "support",
+    "url": "http://cambridge-blockchain.com/about/"
   }]
 });
 document.querySelector('body').appendChild(el);
