@@ -99,7 +99,7 @@ a,
 /* ---------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-	font: 700 40px/1.2 Raleway, sans-serif;
+	font: 400 40px/1.2 Raleway, sans-serif;
 	/*text-transform: uppercase;*/
 	letter-spacing: 4px;
 	margin: 5px 0 5px;
@@ -397,9 +397,10 @@ textarea.form-control {
 #home {
 	background: url(cover.jpg);
 	background-color: #F22;
-	background-attachment: fixed;
+	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+  min-height: 1000px;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -750,12 +751,12 @@ textarea.form-control {
 @media (max-width: 480px) {
 
 	h1 {
-		font-size: 34px;
+		font-size: 30px;
 		letter-spacing: 3px;
 	}
 
 	h2 {
-		font-size: 24px;
+		font-size: 20px;
 		margin: 0 0 30px;
 		letter-spacing: 3px;
 	}
@@ -1012,7 +1013,8 @@ figure.effect-bubba:hover p {
 	margin-left: 3em;
 }
 
-/* Example for media query */
+
+/* Example for media query
 @media screen and (max-width: 30.6em) {
 
 	.cbp-qtrotator {
@@ -1024,3 +1026,4 @@ figure.effect-bubba:hover p {
 	}
 
 }
+*/
